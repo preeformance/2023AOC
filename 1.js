@@ -4,7 +4,7 @@ const data = fs.readFileSync("data", { encoding: "utf8", flag: "r" });
 
 let datArray = data.split("\n");
 
-//first number
+//part 1
 function sum() {
   let total = 0;
 
@@ -16,3 +16,5 @@ function sum() {
   return total;
 }
 // total is 54081
+
+//part 2
